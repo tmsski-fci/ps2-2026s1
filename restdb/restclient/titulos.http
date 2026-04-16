@@ -1,0 +1,31 @@
+GET http://localhost:8080/api/titulos
+###
+
+POST http://localhost:8080/api/titulos
+Content-Type: application/json
+
+{
+    "nome": "Campeão Olímpico",
+    "esporte": "Xadrez",
+    "premio": "20000.00"
+}
+###
+
+POST http://localhost:8080/api/titulos
+Content-Type: application/json
+
+{
+    "nome": "Campeão Brasileiro",
+    "esporte": "Futebol",
+    "premio": "100000.00"
+}
+###
+
+POST http://localhost:8080/api/titulos
+Content-Type: application/json
+
+{
+    "nome": "Campeão Paulista",
+    "esporte": "Tênis de Mesa",
+    "premio": "9999.00"
+}
